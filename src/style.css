@@ -1,6 +1,6 @@
 body {
   background: #d4eaf7;
-  font-family: "SuomiSans Bl";
+  font-family: "Roboto Slab", serif;
   margin: 0;
   padding: 0;
 }
@@ -44,6 +44,7 @@ body {
 .main-container {
   margin: 0 auto;
   padding: 60px 300px;
+  font-family: "Roboto Slab", serif;
 }
 .input {
   background-color: #1c112a;
@@ -78,7 +79,7 @@ body {
   background-color: #fff1f0;
   border-radius: 1px;
   box-shadow: 1px 1px 1px #00000034;
-  font-size: 27px;
+  font-size: 22px;
   padding: 18px;
   text-align: left;
   color: #1c112a;
@@ -95,6 +96,7 @@ body {
   top: 50px;
   right: 0px;
   color: #1c112a;
+  font-size: 14px;
 }
 .side-bar-left {
   flex: 0 0 5%;
@@ -131,10 +133,4 @@ body {
   color: #fff1f0;
   text-decoration: none;
   font-weight: 600;
-}
-.hey {
-  -webkit-text-stroke: 1px black;
-  font-stretch: extra-expanded;
-  transform: scale(2, 2.5);
-  line-height: 2;
 }
