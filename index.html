@@ -28,6 +28,7 @@
       type="font/woff2"
       crossorigin
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Children's Book Ai Generator</title>
@@ -53,7 +54,7 @@
       </header>
       <main>
         <div class="main-container">
-          <form action="" class="imput-container">
+          <form action="" class="imput-container" id="generator-form">
             <input
               type="search"
               autocomplete="off"
@@ -64,7 +65,9 @@
             />
             <input type="submit" class="submit" />
           </form>
-          <div class="generated-book-container">Generated book goes here</div>
+          <div class="generated-book-container" id="generate-book">
+            Generated book goes here
+          </div>
         </div>
 
         <div class="side-bars">
@@ -87,7 +90,7 @@
             <p>
               <strong> Why Early Reading Matters:</strong>
               <br />
-              reading to young children lays the foundation for their future
+              Reading to young children lays the foundation for their future
               learning and development. Reading stimulates language skills,
               builds vocabulary, and strengthens their imagination. Starting
               early gives them the best chance to grow into confident readers
