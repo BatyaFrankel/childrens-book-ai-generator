@@ -1,44 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="src/style.css" />
   <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Oldenburg&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="fonts/roboto/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="fonts/transfonter.org-20241216-211440 (1)/stylesheet.css"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/ab8aa1609f0d6cbe79541c67cd5046f9?family=NeoTech+Bold"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      href="SuomiSans-BoldItalic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Children's book Ai Generator</title>
+    <title>Children's Book Ai Generator</title>
   </head>
   <body>
-    <head>
-      <h1>Children's book AI Generator!</h1>
-    </head>
-    <main>
-      <form action="">
-        <input
-          type="search"
-          autocomplete="off"
-          autofocus
-          required
-          placeholder="Please enter the topic of your Childrens's Book...."
+    <div class="container">
+      <header class="head-container">
+        <div class="title-container">
+          <h1 class="title-header">
+            Children<span class="title-header font-kodchasan">'</span>s Book
+          </h1>
+
+          <h1 class="title-header">
+            AI Generator <span class="title-header font-kodchasan">!</span>
+          </h1>
+        </div>
+        <img
+          src="img/little girl reading.svg"
+          alt="child reading svg"
+          class="title-img"
+          width="100px"
         />
-        <input type="submit" />
-      </form>
-      <div>Generated book goes here</div>
-    </main>
-    <footer>
-      This AI Generator was coded by
-      <a href="https://github.com/BatyaFrankel" target="_blank"
-        >Batya Frankel</a
-      >
-      and is opened-sorced on
-      <a
-        href="https://github.com/BatyaFrankel/childrens-book-ai-generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://childrensbookaigenerator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      </header>
+      <main>
+        <div class="main-container">
+          <form action="" class="imput-container">
+            <input
+              type="search"
+              autocomplete="off"
+              autofocus
+              required
+              placeholder="Please enter the topic of your Childrens's Book...."
+              class="input"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="generated-book-container">Generated book goes here</div>
+        </div>
+
+        <div class="side-bars">
+          <div class="side-bar-left">
+            <img
+              src="img/artificial-intelligence.svg"
+              alt="ia svg"
+              width="100px"
+            />
+            <img src="img/books.svg" alt="books svg" width="100px" />
+          </div>
+
+          <div class="side-bar-right-info">
+            <img
+              src="img/comment-info.svg"
+              alt="comment/info svg"
+              class="side-bar-right-info-svg"
+              width="100px"
+            />
+            <p>
+              <strong> Why Early Reading Matters:</strong>
+              <br />
+              reading to young children lays the foundation for their future
+              learning and development. Reading stimulates language skills,
+              builds vocabulary, and strengthens their imagination. Starting
+              early gives them the best chance to grow into confident readers
+              who thrive in school and beyond.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-container">
+        <span
+          >This AI Generator was coded by
+          <a href="https://github.com/BatyaFrankel" target="_blank"
+            >Batya Frankel</a
+          >
+          and is opened-sorced on
+          <a
+            href="https://github.com/BatyaFrankel/childrens-book-ai-generator"
+            target="_blank"
+            >Github</a
+          >
+          and hosted on
+          <a
+            href="https://childrensbookaigenerator.netlify.app/"
+            target="_blank"
+            >Netlify</a
+          >
+        </span>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

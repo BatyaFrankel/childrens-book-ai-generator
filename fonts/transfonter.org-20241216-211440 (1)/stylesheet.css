@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'SuomiSans Bd';
+    src: url('SuomiSans-BoldItalic.woff2') format('woff2'),
+        url('SuomiSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Bl';
+    src: url('SuomiSans-Black.woff2') format('woff2'),
+        url('SuomiSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Bk';
+    src: url('SuomiSans-Book.woff2') format('woff2'),
+        url('SuomiSans-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Li';
+    src: url('SuomiSans-LightItalic.woff2') format('woff2'),
+        url('SuomiSans-LightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Md';
+    src: url('SuomiSans-Medium.woff2') format('woff2'),
+        url('SuomiSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Bk';
+    src: url('SuomiSans-BookItalic.woff2') format('woff2'),
+        url('SuomiSans-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Md';
+    src: url('SuomiSans-MediumItalic.woff2') format('woff2'),
+        url('SuomiSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Li';
+    src: url('SuomiSans-Light.woff2') format('woff2'),
+        url('SuomiSans-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Th';
+    src: url('SuomiSans-Thin.woff2') format('woff2'),
+        url('SuomiSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Th';
+    src: url('SuomiSans-ThinItalic.woff2') format('woff2'),
+        url('SuomiSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Bd';
+    src: url('SuomiSans-Bold.woff2') format('woff2'),
+        url('SuomiSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SuomiSans Bl';
+    src: url('SuomiSans-BlackItalic.woff2') format('woff2'),
+        url('SuomiSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

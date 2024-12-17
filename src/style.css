@@ -1,0 +1,140 @@
+body {
+  background: #d4eaf7;
+  font-family: "SuomiSans Bl";
+  margin: 0;
+  padding: 0;
+}
+
+.head-container {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+  scale: 1.5;
+  padding: 20px 0px;
+  min-width: fit-content;
+  text-shadow: 1px 1px 1px #fff1f0;
+}
+
+.title-container {
+  text-align: left;
+  font-family: "NeoTech Bold";
+  font-size: 30px;
+  color: #1c112a;
+  line-height: 0.2;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.font-kodchasan {
+  font-family: "Roboto Slab", serif;
+  font-stretch: extra-condensed;
+}
+.title-with-img {
+  display: inline-block;
+}
+.title-img {
+  width: 6vh;
+  margin: 0;
+  padding: 0;
+  color: #1c112a;
+  transform: translate(-44px, 59px);
+}
+.main-container {
+  margin: 0 auto;
+  padding: 60px 300px;
+}
+.input {
+  background-color: #1c112a;
+  color: #fff1f0;
+  border-radius: 1px;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 75%;
+  min-width: 1vh;
+  font-weight: 100;
+  min-width: fit-content;
+  font-size: 20px;
+}
+
+.submit {
+  background-color: #1c112a;
+  color: #fff1f0;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px #00000034;
+  border: none;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 24%;
+  text-align: center;
+  min-width: fit-content;
+  font-size: 20px;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px#000;
+}
+
+.generated-book-container {
+  background-color: #fff1f0;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px #00000034;
+  font-size: 27px;
+  padding: 18px;
+  text-align: left;
+  color: #1c112a;
+  min-width: fit-content;
+}
+
+.side-bar-right-info {
+  flex: 0 0 6%;
+  max-width: 130px;
+  background-color: #fff1f0;
+  padding: 20px;
+  text-align: right;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  color: #1c112a;
+}
+.side-bar-left {
+  flex: 0 0 5%;
+  max-width: 90px;
+  background-color: #fff1f0;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.side-bar-left img,
+.side-bar-right-info img {
+  padding: 20px;
+  width: 50px;
+  filter: invert(9%) sepia(65%) saturate(1740%) hue-rotate(246deg)
+    brightness(95%) contrast(91%);
+}
+
+.footer-container {
+  background-color: #1c112a;
+  box-shadow: 1px 1px 1px #00000034;
+  max-width: 100%;
+  padding: 40px;
+  text-align: center;
+  color: #fff1f0;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+  margin-top: 100px;
+}
+
+.footer-container a {
+  color: #fff1f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hey {
+  -webkit-text-stroke: 1px black;
+  font-stretch: extra-expanded;
+  transform: scale(2, 2.5);
+  line-height: 2;
+}
